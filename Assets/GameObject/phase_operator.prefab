@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6840067856659804826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1420310778845411004}
+  - component: {fileID: 7710917614822769647}
+  m_Layer: 0
+  m_Name: phase_operator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1420310778845411004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6840067856659804826}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.14091772, y: -0.5865785, z: 11.353026}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7710917614822769647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6840067856659804826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18dfc668c6c9464eb53be9747be586d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  phase: 0
+  butterfly: {fileID: 6492897353007113756, guid: fcaf253065d82ca48be27eac8d1484f4, type: 3}
+  cage: {fileID: 0}
+  particle: {fileID: 0}
+  flowerPetal: {fileID: 0}
+  phaseCycle: 30
+  butterflySpawnCircleSizeFirst: 3
+  butterflySpawnDistanceTime: 0.1
+  flowerPetalSpawnDistanceTime: 0.1
+  rainCircleSize: 15
+  rainCycle: 3
+  rainRotateDelay: 0.5
+  spawnRadius: 40
+  spawnHeightMin: 5
+  rainHeight: 20
+  rainButterflyNum: 3
+  rainNumAtOneCircle: 5
+  butterflySpawnNumFirst: 10
